@@ -1,24 +1,13 @@
-# README
+# 目的
+Railsの素振りを行う  
+  
+# 試す
+```ruby
+git clone git@github.com:oenus777/suburi-on-rails.git
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+cd suburi-on-rails
+docker compose up
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 別ターミナルにて
+docker compose run db rails db:create
+```
