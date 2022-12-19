@@ -10,4 +10,7 @@ class UsersController < ApplicationController
 
   def update
   end
+  
+  def sign_in
+  end
 end
